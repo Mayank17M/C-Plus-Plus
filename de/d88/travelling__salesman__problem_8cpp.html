@@ -179,10 +179,11 @@ Functions</h2></td></tr>
 <div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>    <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector&lt;std::vector&lt;int&gt;</a>&gt; cities = {</div>
 <div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>        {0, 5, 10, 15}, {5, 0, 20, 30}, {10, 20, 0, 35}, {15, 30, 35, 0}};</div>
 <div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>    <span class="keywordtype">int</span> V = cities.<a class="code hl_functionRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector/size.html">size</a>();</div>
-<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>    <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <a class="code hl_function" href="../../df/dce/namespacegraph.html#ad75915bca32549e464167418b8249304">graph::TravellingSalesmanProblem</a>(&amp;cities, 0, V);</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>    <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <a class="code hl_function" href="../../df/dce/namespacegraph.html#ad75915bca32549e464167418b8249304">graph::TravellingSalesmanProblem</a>(&amp;cities, 0, V) &lt;&lt; <a class="code hl_functionRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
 <div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>}</div>
 <div class="ttc" id="abasic_ostream_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a></div></div>
+<div class="ttc" id="aendl_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a></div><div class="ttdeci">T endl(T... args)</div></div>
 <div class="ttc" id="anamespacegraph_html_ad75915bca32549e464167418b8249304"><div class="ttname"><a href="../../df/dce/namespacegraph.html#ad75915bca32549e464167418b8249304">graph::TravellingSalesmanProblem</a></div><div class="ttdeci">int TravellingSalesmanProblem(std::vector&lt; std::vector&lt; int &gt; &gt; *cities, int src, int V)</div><div class="ttdoc">Function calculates the minimum path distance that will cover all the cities starting from the source...</div><div class="ttdef"><b>Definition:</b> travelling_salesman_problem.cpp:42</div></div>
 <div class="ttc" id="asize_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/container/vector/size.html">std::vector::size</a></div><div class="ttdeci">T size(T... args)</div></div>
 <div class="ttc" id="atravelling__salesman__problem_8cpp_html_a483bb8ccf42aaf7375a83e91490eda1e"><div class="ttname"><a href="../../de/d88/travelling__salesman__problem_8cpp.html#a483bb8ccf42aaf7375a83e91490eda1e">tests</a></div><div class="ttdeci">static void tests()</div><div class="ttdoc">Self-test implementations.</div><div class="ttdef"><b>Definition:</b> travelling_salesman_problem.cpp:79</div></div>
@@ -190,7 +191,7 @@ Functions</h2></td></tr>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/d88/travelling__salesman__problem_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.svg" width="592" height="244"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/d88/travelling__salesman__problem_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.svg" width="592" height="271"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -243,7 +244,6 @@ Here is the call graph for this function:</div>
 <div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>    assert(<a class="code hl_function" href="../../df/dce/namespacegraph.html#ad75915bca32549e464167418b8249304">graph::TravellingSalesmanProblem</a>(&amp;cities, 0, V) == 80);</div>
 <div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>    <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;3rd test passed...&quot;</span> &lt;&lt; <a class="code hl_functionRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
 <div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>}</div>
-<div class="ttc" id="aendl_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a></div><div class="ttdeci">T endl(T... args)</div></div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
