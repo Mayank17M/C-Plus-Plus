@@ -692,7 +692,7 @@ Here is the call graph for this function:</div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="comment"></span> </div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="comment">        //// compute current path weight</span></div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="comment"></span>        <span class="keywordtype">int</span> k = src;</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>        <span class="keywordflow">for</span> (<span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> i = 0U; i &lt; vtx.<a class="code hl_functionRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector/size.html">size</a>(); i++) {</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>        <span class="keywordflow">for</span> (uint64_t i = 0; i &lt; vtx.<a class="code hl_functionRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector/size.html">size</a>(); i++) {</div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>            curr_weight += (*cities)[k][vtx[i]];</div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>            k = vtx[i];</div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>        }</div>
