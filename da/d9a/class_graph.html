@@ -289,11 +289,10 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>max_flow</b> = 0</td><
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>        this-&gt;edges = <span class="keyword">new</span> <span class="keywordtype">int</span> *[V];</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; V; i++) {</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>            this-&gt;edges[i] = <span class="keyword">new</span> <span class="keywordtype">int</span>[V];</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> j = 0; j &lt; V; j++) this-&gt;edges[i][j] = <a class="code hl_define" href="../../de/d88/travelling__salesman__problem_8cpp.html#a9ec306f36d50c7375e74f0d1c55a3a67">INT_MAX</a>;</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> j = 0; j &lt; V; j++) this-&gt;edges[i][j] = INT_MAX;</div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>            this-&gt;edges[i][i] = 0;</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>        }</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    }</div>
-<div class="ttc" id="atravelling__salesman__problem_8cpp_html_a9ec306f36d50c7375e74f0d1c55a3a67"><div class="ttname"><a href="../../de/d88/travelling__salesman__problem_8cpp.html#a9ec306f36d50c7375e74f0d1c55a3a67">INT_MAX</a></div><div class="ttdeci">#define INT_MAX</div><div class="ttdef"><b>Definition:</b> travelling_salesman_problem.cpp:25</div></div>
 </div><!-- fragment -->
 </div>
 </div>
